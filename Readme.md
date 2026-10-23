@@ -11,7 +11,8 @@ This system ingests those sources, normalises them into PostgreSQL, scores every
 
 | Part | Repository |
 |------|-----------|
-| Backend base (data ingestion from CSVs, train state, rule engine, APIs) | [`shrey1184/kochi-metro-base`](https://github.com/shrey1184/kochi-metro-base) *(private, source available to walk through on request)* |
+| Main Repo can't be shared publically|
+| Backend base (data ingestion from CSVs, train state, rule engine, APIs) | [`shrey1184/kochi-metro-base`](https://github.com/shrey1184/kochi-metro-base) |
 | Data ingestion (WhatsApp → JSON via Periskope + Groq) | [`shrey1184/metrokochi-dataingestion`](https://github.com/shrey1184/metrokochi-dataingestion) |
 
 > ML models are developed separately and are **not part of this repository**.
